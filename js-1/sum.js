@@ -1,4 +1,4 @@
-function suma(num) {
+function sum(num) {
   let i = 0;
   let r = 0;
   while (i <= num) {
@@ -8,6 +8,6 @@ function suma(num) {
   return r;
 }
 
-console.log("el resultado es: " + suma(4));
-console.log("el resultado es: " + suma(10));
-console.log("el resultado es: " + suma(15));
+console.log("el resultado es: " + sum(4));
+console.log("el resultado es: " + sum(10));
+console.log("el resultado es: " + sum(15));
