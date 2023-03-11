@@ -1,15 +1,15 @@
 function calcularColor(num) {
   let color = "color";
   if (num === 1) {
-    color = "negro";
+    color = "black";
   } else if (num === 2) {
-    color = "blanco";
+    color = "white";
   } else if (num === 3) {
-    color = "rojo";
+    color = "red";
   } else {
-    color = "verde";
+    color = "green";
   }
-  return "El color es: " + color;
+  return "Color is: " + color;
 }
 
 console.log(calcularColor(1));
