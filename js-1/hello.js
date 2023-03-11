@@ -1,9 +1,9 @@
 function hello(name) {
-  console.log("Hello " + name + "!");
+  return "Hello " + name + "!";
 }
 
-hello("Kevin");
-hello("Hector");
-hello("Ronald");
-hello("Edgar");
-hello("German");
+console.log(hello("Kevin"));
+console.log(hello("Hector"));
+console.log(hello("Ronald"));
+console.log(hello("Edgar"));
+console.log(hello("Germán"));
