@@ -1,5 +1,5 @@
 function join(arr) {
-  if (arr.length == []) return "";
+  if (!arr.length) return "";
 
   let str = "";
   for (let word of arr) {
