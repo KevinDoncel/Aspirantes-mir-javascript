@@ -1,11 +1,11 @@
 function max(arr) {
-  if (arr.length === []) return undefined;
+  if (!arr.length) return undefined;
 
-  let MAX = arr[0];
-  for (let i = 0; i < arr.length; i++) {
-    if (MAX < arr[i]) MAX = arr[i];
+  let result = arr[0];
+  for (let i = 1; i < arr.length; i++) {
+    if (result < arr[i]) result = arr[i];
   }
-  return MAX;
+  return result;
 }
 
 console.log(max([1, 3, 2])); // 3
