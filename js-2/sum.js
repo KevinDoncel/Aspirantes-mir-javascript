@@ -1,11 +1,11 @@
 function sum(arr) {
-  if (arr.length === 0) return 0;
+  if (!arr.length) return 0;
 
-  let a = 0;
+  let acum = 0;
   for (let i = 0; i < arr.length; i++) {
-    a = a + arr[i];
+    acum = acum + arr[i];
   }
-  return a;
+  return acum;
 }
 console.log(sum([1, 2, 3])); // 6
 console.log(sum([10, 8, 12, 5])); // 35
