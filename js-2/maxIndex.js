@@ -1,15 +1,15 @@
 function maxIndex(arr) {
-  if (arr.length == 0) return -1;
+  if (!arr.length) return -1;
 
-  let max_index = 0;
+  let result = 0;
   let max = arr[0];
   for (let i = 0; i < arr.length; i++) {
     if (max < arr[i]) {
       max = arr[i];
-      max_index = i;
+      result = i;
     }
   }
-  return max_index;
+  return result;
 }
 
 console.log(maxIndex([1, 3, 2])); // 1
