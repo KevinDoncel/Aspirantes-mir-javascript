@@ -1,0 +1,30 @@
+.backBox {
+  border-radius: 20px;
+  background: linear-gradient(blue, gray);
+  width: 300px;
+  height: 150px;
+  box-shadow: 3px 3px 5px 2px black;
+  margin: auto;
+  margin-top: 100px;
+  padding: 20px;
+}
+#sentence {
+  width: 100%;
+  color: white;
+  margin: auto;
+  margin-top: 50px;
+}
+#texto {
+  width: 100%;
+}
+#resultado {
+  color: rgb(248, 204, 204);
+  padding: 10px;
+}
+#btn {
+  width: 100%;
+}
+#resultadobtn {
+  color: white;
+  padding: 20px;
+}
